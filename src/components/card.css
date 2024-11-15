@@ -1,0 +1,64 @@
+/* Container styling */
+.card {
+    background-color: #fff;          /* White background */
+    border: 1px solid #ddd;         /* Light gray border */
+    border-radius: 8px;             /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px;                  /* Padding inside the card */
+    max-width: 400px;               /* Max width for the card */
+    margin: 20px auto;              /* Centering the card with margin */
+    transition: transform 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+  }
+  
+  /* Title styling */
+  .card h2 {
+    font-size: 1.5rem;             /* Font size for title */
+    font-weight: bold;             /* Bold text */
+    color: #333;                   /* Dark text color */
+    margin-bottom: 10px;           /* Space below title */
+  }
+  
+  /* Content styling */
+  .card p {
+    font-size: 1rem;               /* Regular text size for content */
+    color: #666;                   /* Lighter text color */
+    line-height: 1.6;              /* Increased line height for readability */
+    margin-bottom: 0;              /* No bottom margin for paragraph */
+  }
+/* Container styling */
+.card {
+  background-color: #fff;          /* White background */
+  border: 1px solid #ddd;         /* Light gray border */
+  border-radius: 8px;             /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 20px;                  /* Padding inside the card */
+  max-width: 400px;               /* Max width for the card */
+  margin: 20px auto;              /* Centering the card with margin */
+  transition: transform 0.3s ease; /* Smooth transition on hover */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+/* Title styling */
+.card h2 {
+  font-size: 1.5rem;             /* Font size for title */
+  font-weight: bold;             /* Bold text */
+  color: #333;                   /* Dark text color */
+  margin-bottom: 10px;           /* Space below title */
+}
+
+/* Content styling */
+.card p {
+  font-size: 1rem;               /* Regular text size for content */
+  color: #666;                   /* Lighter text color */
+  line-height: 1.6;              /* Increased line height for readability */
+  margin-bottom: 0;              /* No bottom margin for paragraph */
+}  
